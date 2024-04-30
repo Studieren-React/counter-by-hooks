@@ -4,13 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-.counter {
-  font-size: 24px;
-}
-
-.counter-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
