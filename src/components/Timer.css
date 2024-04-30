@@ -1,0 +1,24 @@
+.CounterApp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.CounterWrapper {
+    margin-top: 20px;
+}
+
+.CounterButton {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.CounterTitle {
+    text-transform: capitalize;
+}
+
+.Counter {
+    font-size: 20px;
+    font-weight: 500;
+}

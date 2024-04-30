@@ -1,5 +1,5 @@
 import './Clicker.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Clicker() {
     const [count, handleCount] = useState(0);
@@ -15,6 +15,14 @@ export function Clicker() {
 
         handleCount(count - 1);
     }
+
+    useEffect(() => {
+        /** Обработка монтирования или обновления компонента */
+        console.log('mount component Clicker', count);
+
+        /** Обработка размонтирования компонента или обновления компонента */
+        return () => console.log('unmount component Clicker');
+    }, [count]);
 
     return (
         <>
